@@ -26,7 +26,7 @@ const App = () => {
   const handleSumbit = (e) => {
      
 
-      if(inputValue != ' '){
+      if(inputValue !== ' '){
         setLocation(inputValue);
       }
 
